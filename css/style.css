@@ -1,0 +1,54 @@
+:root {
+  --color-white: #fff;
+  --color-background: #231c30;
+  --color-background-light: #2d253b;
+  --box-shadow: 0 2rem 6rem rgba(0,0,0, .3); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5; }
+
+body {
+  font-family: 'Courier New', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-white);
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; }
+
+.container {
+  max-width: 120rem;
+  margin: 6rem 6rem;
+  background-image: linear-gradient(to right, var(--color-background), var(--color-background-light));
+  box-shadow: var(--shadow-box);
+  min-height: 50rem; }
+
+.content {
+  display: flex; }
+
+.sidebar {
+  background-color: red;
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.portfolio-view {
+  flex: 1;
+  background-color: black; }
+
+.side-nav {
+  font-size: 1.4rem;
+  list-style: none; }
