@@ -54,4 +54,17 @@ body {
 
 .side-nav {
   font-size: 1.4rem;
-  list-style: none; }
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto; }
+
+.side-nav__item {
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: black; }
+  .side-nav__item:hover {
+    background-color: aqua; }
