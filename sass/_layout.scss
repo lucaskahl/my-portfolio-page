@@ -1,8 +1,9 @@
 .container {
     max-width: 120rem;
     margin: 6rem 6rem;
-    background-image: linear-gradient(to right, var(--color-background), var(--color-background-light));
-    box-shadow: var(--shadow-box);
+    border-radius: .5rem;
+    background-image: linear-gradient(-40deg, var(--color-background), var(--color-background-light));
+    box-shadow: 1px 1px 10px rgba(0,0,0, .5);
 
     min-height: 50rem;
 }
@@ -12,20 +13,23 @@
 }
 
 .sidebar {
-    padding-top: 15rem;
-    padding-left: 2rem;
-    background-color: red;
     flex: 0 0 18%;
 
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     justify-content: flex-start;
+
+    border: 1px solid rgba(0,0,0, .2);
+
+    img {
+        height: 5rem;
+        margin: 5rem;
+    }
 }
 
 .portfolio-view {
     flex: 1;
-    background-color: black;
 
     height: 80rem;
 }
