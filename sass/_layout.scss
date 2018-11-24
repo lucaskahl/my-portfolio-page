@@ -34,7 +34,6 @@
 	flex: 1;
 	height: 80rem;
 	width: 10rem;
-
 	display: flex;
 	flex-direction: column;
 
@@ -42,4 +41,6 @@
 }
 
 .area {
+	width: 100%;
+	padding: 2rem;
 }

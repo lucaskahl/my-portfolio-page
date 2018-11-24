@@ -60,6 +60,10 @@ body {
   flex-direction: column;
   flex-wrap: wrap; }
 
+.area {
+  width: 100%;
+  padding: 2rem; }
+
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
@@ -80,8 +84,13 @@ body {
     background-color: aqua;
     border-radius: 5px; }
 
-.area__info {
-  line-height: 2rem;
-  text-align: center;
-  text-decoration: none;
-  background-color: purple; }
+/*.area {
+	&__info {
+		max-width: 50px;
+
+		line-height: 2rem;
+		text-align: center;
+		text-decoration: none;
+		background-color: purple;
+	}
+}*/
