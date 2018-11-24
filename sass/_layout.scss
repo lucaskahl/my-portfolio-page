@@ -10,7 +10,7 @@
 
 .content {
 	display: flex;
-	width: 80%;
+	width: 100%;
 }
 
 .sidebar {
@@ -32,14 +32,14 @@
 
 .portfolio-view {
 	flex: 1;
-
 	height: 80rem;
+	width: 10rem;
+
+	display: flex;
+	flex-direction: column;
+
+	flex-wrap: wrap;
 }
 
 .area {
-	display: flex;
-
-	flex-wrap: wrap;
-
-	width: 2px !important;
 }

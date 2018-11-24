@@ -38,7 +38,7 @@ body {
 
 .content {
   display: flex;
-  width: 80%; }
+  width: 100%; }
 
 .sidebar {
   flex: 0 0 18%;
@@ -54,12 +54,11 @@ body {
 
 .portfolio-view {
   flex: 1;
-  height: 80rem; }
-
-.area {
+  height: 80rem;
+  width: 10rem;
   display: flex;
-  flex-wrap: wrap;
-  width: 2px !important; }
+  flex-direction: column;
+  flex-wrap: wrap; }
 
 .side-nav {
   font-size: 1.4rem;
@@ -82,7 +81,6 @@ body {
     border-radius: 5px; }
 
 .area__info {
-  flex: 1;
   line-height: 2rem;
   text-align: center;
   text-decoration: none;
