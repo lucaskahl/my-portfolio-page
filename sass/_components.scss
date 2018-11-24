@@ -1,24 +1,36 @@
 .side-nav {
-
-    font-size: 1.4rem;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 0 auto; 
+	font-size: 1.4rem;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 0 auto;
 }
 
 .side-nav__item {
-    cursor: pointer;
-    font-size: 1.5rem;
-    width: 14rem;
-    margin-bottom: .5rem;
-    padding: .5rem;
-    color: var(--color-white);
-    transition: background-color .5s;
+	cursor: pointer;
+	font-size: 1.5rem;
+	width: 14rem;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+	color: var(--color-white);
+	transition: background-color 0.5s;
 
-    &:hover {
-        background-color: aqua;
-        border-radius: 5px;
-    }
+	&:hover {
+		background-color: aqua;
+		border-radius: 5px;
+	}
+}
+
+// area component
+
+.area {
+	&__info {
+		flex: 1;
+
+		line-height: 2rem;
+		text-align: center;
+		text-decoration: none;
+		background-color: purple;
+	}
 }
